@@ -1,0 +1,568 @@
+:root {
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;    
+    background: url(/images/background1.jpg);     
+}
+#container1 {    
+    /*width: 90vw;*/
+    max-width: 700px;     
+    padding: 0 1rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+    height: 100%;
+             
+}
+
+.top_header { 
+    
+    display: flex;
+    height: 20px;
+    align-items: center;
+    background-color: #f4f6f7;
+    color: #5f727f;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    font-size: 1rem;
+    margin-top: 0;
+    }
+
+    .top_header #telefone {
+        padding-left: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .top_header #email {
+        padding-left: 2rem;
+        display: flex;
+        align-items: center;
+        color: #00bcd4;
+    }
+
+    .top_header #img_localizacao {
+        width: 13px;
+        height: 10px;
+        padding-right: 0.5rem;
+    }
+
+    .top_header #img_telefone {
+        width: 13px;
+        height: 10px;
+        padding-right: 0.5rem;
+    
+    }
+
+    .top_header #img_email {
+        width: 13px;
+        height: 10px;
+        padding-right: 0.5rem;
+}
+
+.header {
+        background-image: url(/images/img_header.jpg); 
+        background-position: right;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        color: white;
+        height: 100px;    
+        }
+
+        .header a {
+            text-decoration: none;
+        }    
+        .header a .name {
+            font: 500 3rem Cinzel;
+            text-decoration: none;
+            color: white;  
+            transition: 0.2s;                                  
+        }
+        .header a .name:hover {
+            font: 900 3.2rem Cinzel;
+        }
+    
+        .undername {
+            font: 500 1.5rem "Poiret One";
+}
+
+.areas {
+        
+        padding: 2rem;
+        
+                      
+    }
+
+
+    .areas .previdenciario {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border: 1px solid white;               
+    }
+
+        .previdenciario #title_prev { 
+            width: 100%;              
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;         
+            border: 1px solid gray;       ;
+            display: flex;        
+            justify-content: center;
+            font: 900 1.7rem Cardo;
+            background-color: whitesmoke;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5f727f; 
+            transition: 0.2s;                
+        }
+        .previdenciario #title_prev:hover {
+            background: #5f727f; 
+            color: aliceblue;
+            cursor: default;
+            font: 1000 2rem Cardo;           
+        }
+
+        .image_prev {            
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .previdenciario #img_prev {
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gray;                             
+        }
+        #text_img_prev {
+            position: absolute;
+            font: 1000 2.5rem Cardo;
+            color: rgba(255, 255, 255, 0.801);
+            text-align: justify;                                  
+        }
+        
+
+        #text_prev {
+            margin-top: 2rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;
+            display: flex;
+            text-align: justify;        
+        }
+        #text_dest_prev {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: gold;
+            font: 1000 1.7rem Cardo;
+            display: flex;
+            text-align: justify;
+        }
+        #text_prev2 {
+            width: 80%;
+            display: flex;
+            align-content: center;            
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;
+            text-align: justify;
+        }
+
+    .areas .civil {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 10rem;
+        border: 1px solid white;
+
+    }
+
+        .civil #title_civil { 
+            width: 100%;              
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;         
+            border: 1px solid gray;       ;
+            display: flex;        
+            justify-content: center;
+            font: 900 1.7rem Cardo;
+            background-color: whitesmoke;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5f727f; 
+            transition: 0.2s;                              
+        }
+        .civil #title_civil:hover {
+            background: #5f727f; 
+            color: aliceblue;
+            cursor: default;
+            font: 1000 2rem Cardo;          
+        }
+        .image_civil {            
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .civil #img_civil {
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gray;                             
+        }
+        #text_img_civil {
+            position: absolute;
+            font: 1000 2.5rem Cardo;
+            color: rgba(255, 255, 255, 0.801);
+            text-align: justify;                                  
+        }
+        #text_civil {
+            margin-top: 2rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;
+            display: flex;
+            text-align: justify;        
+        }
+        #text_dest_civil {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: gold;
+            font: 1000 1.7rem Cardo;
+            display: flex;
+            text-align: justify;
+        }
+        #text_civil2 {
+            width: 80%;
+            display: flex;
+            align-content: center;            
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;            
+            text-align: justify;
+        }
+
+    .areas .imob {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 10rem;
+        border: 1px solid white;
+    }
+        .imob #title_imob { 
+            width: 100%;              
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;         
+            border: 1px solid gray;       ;
+            display: flex;        
+            justify-content: center;
+            font: 900 1.7rem Cardo;
+            background-color: whitesmoke;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5f727f;
+            transition: 0.2s;              
+        }
+        .imob #title_imob:hover {
+            background: #5f727f; 
+            color: aliceblue;
+            cursor: default;
+            font: 1000 2rem Cardo;
+        }
+        .image_imob {            
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .imob #img_imob {
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gray;                             
+        }
+        #text_img_imob {
+            position: absolute;
+            font: 1000 2.3rem Cardo;
+            color: rgba(255, 255, 255, 0.801);
+            text-align: justify;                                  
+        }
+        #text_imob {
+            margin-top: 2rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;
+            display: flex;
+            text-align: justify;        
+        }
+        #text_dest_imob {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: gold;
+            font: 1000 1.7rem Cardo;
+            display: flex;
+            text-align: justify;
+        }
+        #text_imob2 {
+            width: 80%;
+            display: flex;
+            align-content: center;            
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;            
+            text-align: justify;
+        }
+
+    .areas .familia {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 10rem;
+        border: 1px solid white;
+    }
+        .familia #title_familia { 
+            width: 100%;              
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;         
+            border: 1px solid gray;       ;
+            display: flex;        
+            justify-content: center;
+            font: 900 1.7rem Cardo;
+            background-color: whitesmoke;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5f727f; 
+            transition: 0.2s;                   
+        }
+        .familia #title_familia:hover {
+            background: #5f727f; 
+            color: aliceblue;
+            cursor: default;
+            font: 1000 2rem Cardo; 
+        }    
+        .image_familia {            
+            display: flex;            
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .familia #img_familia {
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gray;                             
+        }
+        #text_img_familia {
+            position: absolute;
+            font: 1000 2.3rem Cardo;
+            color: rgba(255, 255, 255, 0.801);
+            text-align: center;                
+        }
+        #text_familia {
+            margin-top: 2rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;
+            display: flex;
+            text-align: justify;        
+        }
+        #text_dest_familia {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            width: 80%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: gold;
+            font: 1000 1.7rem Cardo;
+            display: flex;
+            text-align: justify;
+        }
+        #text_familia2 {
+            width: 80%;
+            display: flex;
+            align-content: center;            
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font: 500 1.7rem Cardo;            
+            text-align: justify;
+        }
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1100px) {
+    #areas #container {
+        max-width: 100vwpx;
+    }
+    .top_header {
+        height: 30px;
+        font-size: 14px;
+    }
+        .top_header #telefone {
+            padding-left: 8rem;
+        }
+        .top_header #email {
+            padding-left: 8rem;
+        }
+    
+    .header {
+        height: 300px;
+        padding-top: 20px;
+        margin-bottom: 20px;        
+    }
+        .header a .name {
+            margin-top: 6rem;
+            font-size: 70px;
+        }
+        .header a .name:hover {
+            font: 900 8rem Cinzel;
+        }
+        .header .undername {
+            font-size: 30px;            
+        }
+
+        .areas {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto auto;
+            grid-template-areas:
+            "prev civil"
+            "imob familia";
+            border: auto;
+            max-width: 100%;
+            max-height: 100%;
+            margin-left: 70px;
+            margin-right: 70px;
+
+        }
+
+        .previdenciario {
+            grid-area: prev;            
+            margin-top: 10rem;
+        }
+            .previdenciario #text_prev {
+                font-size: 20px;
+            }
+            .previdenciario #text_dest_prev {
+                font-size: 20px;
+            }
+            .previdenciario #text_prev2 {
+                font-size: 20px;
+            }
+
+        .civil {
+            grid-area: civil;
+        }
+            .civil #text_civil {
+                font-size: 20px;
+            }
+            .civil #text_dest_civil {
+                font-size: 20px;
+            }
+            .civil #text_civil2 {
+                font-size: 20px;
+            }
+
+        .imob {
+            grid-area: imob;
+        }
+            .imob #text_imob {
+                font-size: 20px;
+            }
+            .imob #text_dest_imob {
+                font-size: 20px;
+            }
+            .imob #text_imob2 {
+                font-size: 20px;
+            }
+            
+        .familia {
+            grid-area: familia;
+        }
+            .familia #text_familia {
+                font-size: 20px;
+            }
+            .familia #text_dest_familia {
+                font-size: 20px;
+            }
+            .familia #text_familia2 {
+                font-size: 20px;
+            }
+}
